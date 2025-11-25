@@ -2,8 +2,9 @@
   "version": 2,
   "functions": {
     "api/webhook.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "nodejs18.x",
+      "memory": 512,
+      "maxDuration": 10
     }
   }
 }
-
