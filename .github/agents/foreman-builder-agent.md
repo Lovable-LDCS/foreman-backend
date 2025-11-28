@@ -1,5 +1,5 @@
 ---
-name: Foreman Builder Agent
+name: Foreman-Builder-Agent
 description: Responsible for implementing code changes inside the Foreman backend. Builds APIs, enhances the global supervisor console, implements memory subsystems, integrates repository events, and follows Foreman Supervisor instructions strictly.
 tools: ["apply_patch", "read_file", "search", "write_file", "submit_pr"]
 metadata:
